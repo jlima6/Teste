@@ -22,8 +22,6 @@
 			<scope>compile</scope>
 		</dependency>
 
-
-
 		<!--Implementacao HibernateEntityManager da JPA -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -31,7 +29,6 @@
 			<version>4.3.8.Final</version>
 			<scope>compile</scope>
 		</dependency>
-
 
 		<!-- API javax.Servlets -->
 		<dependency>
@@ -48,12 +45,23 @@
 			<version>5.1.34</version>
 			<scope>compile</scope>
 		</dependency>
-
+		
+		<!-- Hibernate Persistence -->
 		<dependency>
 			<groupId>org.hibernate.javax.persistence</groupId>
 			<artifactId>hibernate-jpa-2.1-api</artifactId>
 			<version>1.0.0.Final</version>
 		</dependency>
+		
+		<!-- JavaFaces API -->
+		<dependency>
+			<groupId>javax.faces</groupId>
+			<artifactId>javax.faces-api</artifactId>
+			<version>2.3</version>
+			<scope>provided</scope>
+		</dependency>
+	
+	
 	</dependencies>
 
 
