@@ -61,6 +61,15 @@
 			<scope>provided</scope>
 		</dependency>
 	
+		<!-- Mojarra JSF -->
+		<dependency>
+		<groupId>org.glassfish</groupId>
+		<artifactId>javax.faces</artifactId>
+		<version>2.2.10</version>
+		<scope>compile</scope>
+		</dependency>
+
+
 	
 	</dependencies>
 
